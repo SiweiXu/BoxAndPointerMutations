@@ -7,8 +7,8 @@ This module demonstrates:
  5. Two equality operators:   is   ==
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         their colleagues and Siwei Xu.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import rosegraphics as rg
 
@@ -143,6 +143,7 @@ def main():
     print('Fillcolors are:',
           point3.fill_color, point4.fill_color, point5.fill_color)
     print('T or F: point3 is point5?', point3 is point5)
+    # **************************************
     print('T or F: point3 is point4?', point3 is point4)
     print('T or F: point4 is point5?', point4 is point5)
 
